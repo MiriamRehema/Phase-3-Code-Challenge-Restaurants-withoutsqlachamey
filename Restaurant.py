@@ -17,11 +17,11 @@ class Restaurant:
         average_rating = total_ratings / num_reviews
         return average_rating
 
-# Example usage
 
 
 
-#print(f"The average rating for {restaurant.name} is {average_star_rating:.2f}")
+
+
 
 
 
