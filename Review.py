@@ -1,5 +1,5 @@
 class Review:
-    #create an empty list
+    #create an empty list since the number of reviews will change
     all_review=[]
     def __init__(self,customer,restaurant,rating=int):
         self.customer=customer
@@ -8,13 +8,14 @@ class Review:
         #call it here
         Review.all_review.append(self)
     @classmethod
+    #method rating
     def rating(self):
         return self.rating
-
-def all(self):
+      #methods
+    def all(self):
         return self.all
-@classmethod
-def customer(self):
+    @classmethod
+    def customer(self):
         return self.customer
-def restaurant(self):
+    def restaurant(self):
         return self.restaurant
